@@ -1,0 +1,16 @@
+[
+  {
+    "id": "97d16abc-1569-43e0-929b-cef05cd850fb",
+    "name": "Steve Jobs",
+    "image": "http://adsoftheworld.com/files/steve-jobs.jpg",
+    "birthday": "1955-02-24T00:00:00Z",
+    "bio": "Steven Paul Jobs was an American businessman, inventor, and industrial designer. He was the co-founder, chairman,and chief executive officer (CEO) of Apple Inc."
+  },
+  {
+    "id": "97d16abc-1569-43e0-929b-cef05cd850fb",
+    "name": "Craig Federighi",
+    "image": "http://www.apple.com/pr/bios/images/federighi_hero20120727.png",
+    "birthday": "1969-05-27T00:00:00Z",
+    "bio": "Craig Federighi is Apple's senior vice president of Software Engineering. Federighi oversees the development of iOS, macOS and Apple's common operating system engineering teams."
+  }
+]

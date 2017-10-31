@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <declare-styleable name="ResizableTextView">
+        <attr name="minTextSize" format="dimension" />
+        <attr name="maxTextSize" format="dimension" />
+        <attr name="stepTextSize" format="dimension" />
+    </declare-styleable>
+
+</resources>

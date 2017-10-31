@@ -1,0 +1,49 @@
+[
+  {
+    "id": "97d16abc-1569-43e0-929b-cef05cd850fb",
+    "name": "Steve Jobs",
+    "image": "http://adsoftheworld.com/files/steve-jobs.jpg",
+    "birthday": "1955-02-24T00:00:00Z",
+    "bio": "Steven Paul Jobs was an American businessman, inventor, and industrial designer. He was the co-founder, chairman,and chief executive officer (CEO) of Apple Inc."
+  },
+  {
+    "id": "599df0e4-183c-4bfb-91c5-881d4550cd3f",
+    "name": "Craig Federighi",
+    "image": "http://www.apple.com/pr/bios/images/federighi_hero20120727.png",
+    "birthday": "1969-05-27T00:00:00Z",
+    "bio": "Craig Federighi is Apple's senior vice president of Software Engineering. Federighi oversees the development of iOS, macOS and Apple's common operating system engineering teams."
+  },
+  {
+    "id": "145854f5-63a7-456a-9532-9f3a2fcf9875",
+    "name": "Jonathan Ive",
+    "image": "http://d.fastcompany.net/multisite_files/codesign/imagecache/1280/poster/2012/10/1671131-poster-1280-jony-ive.jpg",
+    "birthday": "1967-02-27T00:00:00Z",
+    "bio": "Sir Jonathan Paul Ive, KBE, is a British industrial designer who is currently the Chief Design Officer of Apple Inc."
+  },
+  {
+    "id": "fe71a57c-fb1f-4f85-82df-3d6261b88a04",
+    "name": "Timothy Cook",
+    "image": "http://images.apple.com/pr/bios/images/cook_hero.png",
+    "birthday": "1960-11-01T00:00:00Z"
+  },
+  {
+    "id": "599df0e4-183c-4bfb-91c5-881d4550cd3f",
+    "name": "Craig Federighi",
+    "image": "http://www.apple.com/pr/bios/images/federighi_hero20120727.png",
+    "birthday": "1969-05-27T00:00:00Z",
+    "bio": "Craig Federighi is Apple's senior vice president of Software Engineering. Federighi oversees the development of iOS, macOS and Apple's common operating system engineering teams."
+  },
+  {
+    "id": "9e98ff85-a11f-43de-ab87-f31f5bf0989c",
+    "name": "William Henry Gates",
+    "image": "https://pbs.twimg.com/profile_images/5581099545616793600/j1f9DiJi.jpeg",
+    "birthday": "1955-10-28T00:00:00Z",
+    "bio": "William Henry Gates III is an American business magnate, investor, author, and philanthropist. In 1975, Gates and Paul Allen co-founded Microsoft, which became the world's largest PC software company."
+  },
+  {
+    "id": "94fb5c91-7fe4-449f-93de-6b493d2d981f",
+    "name": "Scott Forstall",
+    "image": "https://gigaom.com/wp-content/uploads/sites/1/2012/10/apple-exec-scott-forstall.jpg?w=237",
+    "birthday": "1969-01-01T00:00:00Z"
+  }
+]

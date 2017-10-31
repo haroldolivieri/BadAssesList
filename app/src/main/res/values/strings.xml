@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bad Asses</string>
+    <string name="badass_image_description">A badass image</string>
+    <string name="badass_image_transition_name">badAssImage</string>
+    <string name="content_transition_name">contentImage</string>
+    <string name="badass_name_transition_name">badAssName</string>
+
+    <string name="bariol_regular">fonts/Bariol_Regular.otf</string>
+    <string name="bariol_light">fonts/Bariol_Light.otf</string>
+    <string name="bariol_thin">fonts/Bariol_Thin.otf</string>
+    <string name="bariol_bold">fonts/Bariol_Bold.otf</string>
+</resources>

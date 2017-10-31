@@ -10,7 +10,7 @@ The Dagger Injection Graph was mocked using Roboletric.
 If you face any problem to run the tests, please, follow this [setup](http://robolectric.org/getting-started/)
 on **Building with Android Studio** section.
 
-*keywords: Roboletric + PowerMock + Mockito + Dagger2 + RxJava2*
+*keywords: Robolectric + PowerMock + Mockito + Dagger2 + RxJava2*
 
 
 

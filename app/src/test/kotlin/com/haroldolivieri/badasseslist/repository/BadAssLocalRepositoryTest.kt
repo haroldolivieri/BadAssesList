@@ -19,18 +19,20 @@ class BadAssLocalRepositoryTest {
     fun readJsonFromExistingFile() {
         val file = diffItemsFile(javaClass)
         val repository = BadAssLocalRepository(FileInputStream(file))
+        val result = callPrivateMethod(repository, "readDataLocally",
+                emptyArray()) as String
 
-        Assert.assertEquals(callPrivateMethod(repository, "readDataLocally", emptyArray()),
-                badAssesTwoDiff)
+        Assert.assertEquals(badAssesTwoDiff, result.replace("\r", ""))
     }
 
     @Test
     fun readJsonWithNullData() {
         val file = nullDataOnItemsFile(javaClass)
         val repository = BadAssLocalRepository(FileInputStream(file))
+        val result = callPrivateMethod(repository, "readDataLocally",
+                emptyArray()) as String
 
-        Assert.assertEquals(callPrivateMethod(repository, "readDataLocally", emptyArray()),
-                badAssesWithNullData)
+        Assert.assertEquals(badAssesWithNullData, result.replace("\r", ""))
     }
 
     @Test(expected = NullPointerException::class)
@@ -127,7 +129,5 @@ class BadAssLocalRepositoryTest {
             "    \"bio\": \"Craig Federighi is Apple's senior vice president of Software Engineering. Federighi oversees the development of iOS, macOS and Apple's common operating system engineering teams.\"\n" +
             "  }\n" +
             "]"
-
-
 }
 

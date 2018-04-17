@@ -1,0 +1,37 @@
+language: android
+jdk: oraclejdk8
+sudo: false
+
+notifications:
+    email:
+        - olivierisoares@gmail.com
+
+branches:
+    only:
+        - master
+
+before_cache:
+    - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+
+cache:
+    directories:      #Cache all dirs under .gradle folder
+        - $HOME/.gradle/daemon      #Cache daemon logs
+        - $HOME/.gradle/native      #Cache library downloaded from the gradle dependency
+        - $HOME/.gradle/wrapper     #Cache the gradle
+
+before_install:
+    - chmod +x gradlew
+    - yes | sdkmanager "platforms;android-26"
+
+android:
+    components:
+        - platform-tools
+        - build-tools-26.0.1
+        - android-26
+        - extra-android-m2repository
+script:
+    - ./gradlew test
+    - ./gradlew jacocoTestReportDebug
+
+after_success:
+    - bash <(curl -s https://codecov.io/bash)

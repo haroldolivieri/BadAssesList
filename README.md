@@ -1,3 +1,6 @@
+#Bad Asses List
+[![Build Status](https://travis-ci.org/haroldolivieri/BadAssesList.svg?branch=master)](https://travis-ci.org/haroldolivieri/BadAssesList) [![codecov](https://codecov.io/gh/haroldolivieri/BadAssesList/branch/master/graph/badge.svg)](https://codecov.io/gh/haroldolivieri/BadAssesList)
+
 ## Architecture & Design Pattern
 This project is a sample of good usages about MVP and dagger-android.
 Each feature is separated as a subcomponent.This was made easier with **AndroidInjector** and **@ContributesAndroidInjector** on Dagger 2.11.
